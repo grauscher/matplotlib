@@ -1443,7 +1443,7 @@ class TimedAnimation(Animation):
        Delay between frames in milliseconds.  Defaults to 200.
 
     repeat_delay : number, optional
-        If the animation in repeated, adds a delay in milliseconds
+        If the animation is repeated, adds a delay in milliseconds
         before repeating the animation.  Defaults to ``None``.
 
     repeat : bool, optional
@@ -1531,7 +1531,7 @@ class ArtistAnimation(TimedAnimation):
        Delay between frames in milliseconds.  Defaults to 200.
 
     repeat_delay : number, optional
-        If the animation in repeated, adds a delay in milliseconds
+        If the animation is repeated, adds a delay in milliseconds
         before repeating the animation.  Defaults to ``None``.
 
     repeat : bool, optional
